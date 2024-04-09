@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Orbitron:wght@400..900&display=swap');
+
+body{
+    text-align: center;
+    font-family:"Orbitron", sans-serif;
+    background: rgb(12,25,3);
+    background: linear-gradient(90deg, rgba(12,25,3,1) 0%, rgba(208,17,17,1) 100%, rgba(0,204,3,1) 100%);
+}
+.login{
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(27, 158, 1);
+    width:30%;
+    margin-left: 37%;
+    border-width: 10px;
+    border-style: groove;
+    border-color: rgb(163, 158, 4);
+}
+button{
+    border-radius: 10%;
+}
