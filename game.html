@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Quiz matemática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <label id="nomeJogador1"></label><span id="pontosJogador1"></span>
+       <br>
+       <label id="nomeJogador2"></label><span id="pontosJogador2"></span>
+    </header>
+    <main>
+       <center>
+          <h2>Quiz de Matemática</h2>
+          <h3 id="pergunta"></h3>
+          <h3 id="resposta"></h3>
+          <div id="output"></div>
+          <br><br>
+          <h4>Número 1</h4>
+          <input type="number" placeholder="digite um número" id="n1" max="100">
+          <h4>Número 2</h4>
+          <input type="number" placeholder="digite um número" id="n2" max="100">
+          <br><br>
+          <button onclick="enviarNumeros()">Enviar</button>
+       </center>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
